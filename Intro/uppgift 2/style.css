@@ -1,0 +1,27 @@
+body {
+	color:red;
+	background-color:black;
+}
+h1{
+	font-family:"arial";
+	font-size: 22px;
+	
+	
+}
+
+.program{
+	background-color:white;
+	color:Black;
+	text-align: center;
+}
+.program2{
+text-align:right;
+}
+a:link {
+text-decoration: none;
+}
+
+.info{
+	border:solid;
+	
+}
