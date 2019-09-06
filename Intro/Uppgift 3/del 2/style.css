@@ -1,29 +1,23 @@
-table, td {
-	border:solid black;
-	border-collapse: collapse;
-}
-table {
-	width:200%;
-	height:200%;
-}
-body {
-	height:200px;
-	width:200px;
-}
-.blue {
-	background-color:dodgerblue;
-}
-.red {
-	background-color:red;
-}
-
-.lime {
-	background-color:lime;
-}
-
-.yellow {
-	background-color:yellow;	
-}
-.black {
-	background-color:black;
-}
+<!DOCTYPE html>
+<html lang="sv"> 
+<head> 
+	<meta charset="UTF-8">
+	<title>Uppgift 4</title>
+	<link href="Style.css" rel="Stylesheet"> 
+</head>
+<body>
+	<table>
+		<caption> Färglad Tabell</caption>
+			<tr>
+				<td class="blue" rowspan="2"></td>
+				<td class="red" colspan="2"></td>
+			</tr>
+			<tr>
+				<td class="yellow"></td>
+				<td class="black"rowspan="2"></td>
+			</tr>
+			<tr>
+				<td class="lime" colspan="2"></td>
+			</tr>
+	</table>
+</body>
