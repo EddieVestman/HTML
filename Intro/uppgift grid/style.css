@@ -14,14 +14,14 @@ h1, h2, h3, h4{
 	text-align: center;
 }
 .program2{
-text-align:center;
+	text-align:center;
 }
 a:link {
-text-decoration: none;
-color:white;
+	text-decoration: none;
+	color:white;
 }
 .video {
-color:white;
+	color:white;
 }
 .info{
 	text-align:center;
@@ -29,42 +29,56 @@ color:white;
 
 .wrapper {
   display:grid;
-  grid-template-columns: f1 f1 f1;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: 
-  "h1 h2 h3"
-  "content1 ariel bilder";
+  "eddie tom adam";
+  /*"content1 ariel bilder";*/
 }
 
 section {
 	display:grid;
-	grid-area:"content1";	
+	grid-area:adam;
 	
 }
 
+section:first-of-type{
+	grid-area:eddie;
+}
+
+section:last-of-type{
+	grid-area:tom;
+}
+
+
 .ariel {
-display:grid;
-grid-area:"ariel";	
+	display:grid;
+	
 	
 }
 .bilder {
-display:grid;
-	display-area:"bilder";
+	/*display:grid;
+	grid-area:"tom";
+	*/
 }
 
 h1{
-display:grid;
-	display-area:"h1";
+	display:grid;
+	
 	
 }
 
 h2{
-display:grid;
-	display-area:"h2";
+	display:grid;
+	
 	
 }
 
 h3{
-display:grid;
-	display-area:"h3";
+	display:grid;
 	
+	
+}
+
+img{
+	width:600px;
 }
